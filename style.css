@@ -1,0 +1,143 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: radial-gradient(#CFB070, #ab600d) !important;
+  perspective: 1000px;
+  padding-bottom: 100px;
+}
+.container {
+  width: 98%;
+  margin: 0 auto;
+}
+.content {
+  margin-top: 60px;
+  display: flex;
+}
+.content__sublist {
+  list-style: none;
+  margin-left: 50px;
+}
+.content__subitem {
+  border: 1px solid #000;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #CFB070;
+}
+.bgc{
+  background-color: #ab600d;
+}
+.content__subimg {
+  width: 90px;
+  height: 90px;
+}
+.black {
+  /* background-color: #ab600d !important; */
+  /* box-shadow: 0px 0px 31px 13px #ff2929 inset !important; */
+  box-shadow: 0px 0px 0px 0px #ff2929 inset !important;
+  z-index: 10000000000000;
+}
+.simg {
+  z-index: -10000000000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background-size: inherit; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+
+
+}
+
+.list-content {
+  position: absolute;
+  top: 0px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  width: 700px;
+  height: 700px;
+  transition: all 0.4s ease;
+  transform-style: preserve-3d;
+}
+.listss {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 700px;
+  list-style: none;
+  transition: all 0.5s ease;
+}
+
+.item {
+  position: relative;
+  border: 1px solid #000;
+  width: 12.5%;
+  height: 12.5%;
+  z-index:1;
+}
+.white {
+  background-color: #EFD8B4 ;
+}
+.dark {
+  background-color: #765539;
+}
+.cordinata {
+  position: absolute;
+  right: 60px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.cordinat {
+  padding: 6px;
+  background-color: #fff;
+  color: #ab600d;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.red{
+  /* background-color: red !important; */
+  /* box-shadow: 0px 0px 31px 13px #ff2929 inset; */
+  /* box-shadow: 0 0 30px 13px #d8cb15 inset; */
+  box-shadow: 0px 0px 31px 13px #09ff00 inset;
+}
+.d3{
+  padding: 6px 14.5px;
+  position: absolute;
+  right: 60px;
+  top: 50px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+
+
+.contenta {
+  width: 400px;
+  height: 400px;
+  border: 2px solid #000;
+  margin-left: 600px;
+  margin-top: 100px;
+  transform-style: preserve-3d;
+}
+
+.box {
+  width: 360px;
+  height: 360px;
+  background-color: red;
+  transform: rotateY(30deg);
+}
+
+
+
+.animation3d {
+  transform: rotateX(45deg) scale(1.1) translateY(-50px);
+}
+
+
